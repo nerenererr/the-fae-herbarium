@@ -1,16 +1,95 @@
 {
-    "documentaries": [
+    "fairies": [
         {
-            "id": "1",
-            "poster": "https://i.pinimg.com/736x/ac/b2/76/acb276f0dd00c1d2d966dd1402c285ea.jpg",
-            "title": "My octopus year",
-            "year": "2020",
-            "lenght": "1h 25m",
-            "director": "Pippa",
-            "sypnosis": "a filmmaker forges an ..."
-
+            "id": "Specimen #001",
+            "fairyName": "Aurelia",
+            "category": "Sunlight",
+            "magicTitle": "Guardian of the Morning Dew",
+            "power": "Ancient Sunflowers",
+            "description": "Aurelia wanders through golden meadows at dawn, gathering droplets of light to nourish the sleeping flora.",
+            "image": "https://res.cloudinary.com/dbtuho5h0/image/upload/v1778053241/fa961e63-25f1-404c-bf59-10479762bbff_pknicr.png"
+        },
+        {
+            "id": "Specimen #002",
+            "fairyName": "Thistle",
+            "category": "Briar",
+            "magicTitle": "Spirit of the Wild Briar",
+            "power": "Thorny Vines",
+            "description": "Small but fierce, Thistle protects the edges of the forest with magic that weaves unbreakable brambles.",
+            "image": "https://res.cloudinary.com/dbtuho5h0/image/upload/v1778053232/e3f97e37-3702-4511-819e-d8e3918d693b_bxbskd.png"
+        },
+        {
+            "id": "Specimen #003",
+            "fairyName": "Luna",
+            "category": "Nocturnal",
+            "magicTitle": "Weaver of Silver Dreams",
+            "power": "Moonlight Reflection",
+            "description": "Luna appears only when the moon is full, spinning ethereal threads that guide wanderers through the night.",
+            "image": "https://res.cloudinary.com/dbtuho5h0/image/upload/v1778053231/2c965759-4ded-4d1d-a06b-35ffee93cb8f_nt9hlq.png"
+        },
+        {
+            "id": "Specimen #004",
+            "fairyName": "Fern",
+            "category": "Grove",
+            "magicTitle": "Keeper of Hidden Groves",
+            "power": "Deep Mossy Roots",
+            "description": "Residing in the dampest corners of the woods, Fern ensures that the ancient ferns never lose their vibrant green.",
+            "image": "https://res.cloudinary.com/dbtuho5h0/image/upload/v1778053231/4b879537-1b88-4d97-996e-09c609b185b3_dxrs0c.png"
+        },
+        {
+            "id": "Specimen #005",
+            "fairyName": "Flora",
+            "category": "Spring",
+            "magicTitle": "Enchantress of Spring Blooms",
+            "power": "Sacred Pollen",
+            "description": "Wherever Flora steps, wildflowers erupt in a riot of color, signaling the end of the long winter sleep.",
+            "image": "https://res.cloudinary.com/dbtuho5h0/image/upload/v1778053232/29f43117-1f03-4182-9a2e-8b4ac225daa4_xhfxgt.png"
+        },
+        {
+            "id": "Specimen #006",
+            "fairyName": "Bramble",
+            "category": "Harvest",
+            "magicTitle": "Seeker of Sweet Berries",
+            "power": "Wild Raspberry Essence",
+            "description": "A mischievous sprite who hides in berry patches, Bramble protects the harvest from greedy woodland creatures.",
+            "image": "https://res.cloudinary.com/dbtuho5h0/image/upload/v1778053231/c0f9b296-2fa9-4333-abb0-82715cdd88f4_vfkgsf.png"
+        },
+        {
+            "id": "Specimen #007",
+            "fairyName": "Willow",
+            "category": "Aquatic",
+            "magicTitle": "Voice of the Weeping Streams",
+            "power": "Running Water",
+            "description": "Willow sings songs of old to the flowing rivers, keeping the waters pure and full of magic life.",
+            "image": "https://res.cloudinary.com/dbtuho5h0/image/upload/v1778053231/f532a5c5-3e34-4154-8a99-dee1db859d19_cnvei9.png"
+        },
+        {
+            "id": "Specimen #008",
+            "fairyName": "Pip",
+            "category": "Artisan",
+            "magicTitle": "Tinkerer of Acorn Caps",
+            "power": "Sturdy Oak Bark",
+            "description": "Pip crafts tiny homes and tools from fallen forest treasures, helping animals prepare for the winter months.",
+            "image": "https://res.cloudinary.com/dbtuho5h0/image/upload/v1778053231/6d3da7da-1054-449e-a794-a34e226a06e8_hqdk4t.png"
+        },
+        {
+            "id": "Specimen #009",
+            "fairyName": "Clove",
+            "category": "Herbalist",
+            "magicTitle": "Sentinel of the Spiced Air",
+            "power": "Aromatic Herbs",
+            "description": "Clove tends to the wild herbs, filling the forest air with scents of cinnamon and dried lavender.",
+            "image": "Pippa"
+        },
+        {
+            "id": "Specimen #010",
+            "fairyName": "Iris",
+            "category": "Twilight",
+            "magicTitle": "Painter of the Evening Sky",
+            "power": "Prismatic Colors",
+            "description": "Iris blends the last rays of the sun with the approaching night, painting the horizon in soft purples and pinks.",
+            "image": "https://res.cloudinary.com/dbtuho5h0/image/upload/v1778053232/0c6a42cb-38ce-4980-aa83-ae0057bd41e2_oosk3d.png"
         }
-
     ]
 
 
