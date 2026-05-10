@@ -1,4 +1,4 @@
-const requestURL = '../json/fairies.json';
+const requestUrl = 'http://localhost:3000/fairies';
 
 async function fetchFairiesData() {
     const response = await fetch(requestUrl);
@@ -7,7 +7,7 @@ async function fetchFairiesData() {
 }
 
 fetchFairiesData().then(data => {
-    const fairiesArray = data.fairies; 
+    const fairiesArray = data.fairies || data; 
     const fairiesSection = document.getElementById('fairiesSection');
 
     for (let index = 0; index < fairiesArray.length; index++) {
