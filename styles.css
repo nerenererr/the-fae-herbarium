@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF5F0;
+    font-family: 'Lora', serif;
+    color: #5C4D4D;
+    min-height: 100vh;
+}
+
+
+.header-vintage {
+    background-color: #FAF5F0;
+    border-bottom: 1px solid #C1C5A8;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.header-vintage h1 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    color: #5C4D4D;
+    letter-spacing: 0.05em;
+}
+
+.header-vintage p {
+    font-style: italic;
+    color: #8C9362;
+    font-size: 1.1rem;
+}
+
+.border-vintage {
+    border-color: #C1C5A8 !important;
+    opacity: 1;
+}
+
+
+.fairy-card {
+    background-color: #FAF5F0;
+    border: 1px solid #C1C5A8 !important;
+    border-radius: 12px !important;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    overflow: hidden;
+}
+
+.fairy-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(92, 77, 77, 0.12) !important;
+    border-color: #D3A2A2 !important;
+}
+
+
+
+.card-img-wrapper {
+    position: relative;
+    background-color: #F0EBE3;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    aspect-ratio: 4 / 3; 
+}
+
+.card-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  
+    display: block;
+    padding: 12px; 
+    transition: transform 0.4s ease;
+}
+
+.fairy-card:hover .card-img-wrapper img {
+    transform: scale(1.04);
+}
+
+
+.badge-custom {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #FAF5F0;
+    border: 1px solid #C1C5A8;
+    border-radius: 100px;
+    padding: 3px 12px;
+}
+
+.badge-custom span {
+    color: #8C9362;
+    font-family: 'Lora', serif;
+    font-size: 0.75rem;
+    font-style: italic;
+    letter-spacing: 0.04em;
+}
+
+
+
+.font-headline-md {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #5C4D4D;
+}
+
+.font-label-lg {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #8C9362;
+}
+
+.font-label-sm {
+    font-family: 'Lora', serif;
+    font-size: 0.75rem;
+    color: #5C4D4D;
+}
+
+.font-body-md {
+    font-family: 'Lora', serif;
+    font-size: 0.875rem;
+    color: #5C4D4D;
+    line-height: 1.65;
+}
+
+.text-primary {
+    color: #5C4D4D !important;
+}
+
+.text-secondary {
+    color: #8C9362 !important;
+}
+
+.text-tertiary {
+    color: #8C9362 !important;
+}
+
+.text-on-surface-variant {
+    color: #8C9362 !important;
+}
+
+.text-on-surface-variant span {
+    font-size: 0.875rem;
+}
+
+.border-bottom.border-outline-variant {
+    border-color: rgba(193, 197, 168, 0.4) !important;
+}
+
+.border-top.border-outline-variant {
+    border-color: rgba(193, 197, 168, 0.4) !important;
+}
+
+.border-vintage-inner {
+    border-bottom: 1px solid rgba(193, 197, 168, 0.4);
+}
+
+
+
+.collapse {
+    transition: height 0.35s ease-in-out;
+}
+
+.collapsing {
+    transition: height 0.35s ease-in-out !important;
+}
+
+
+
+.icon-small {
+    font-size: 1rem !important;
+    color: #D3A2A2;
+}
+
+.text-small {
+    font-size: 0.85rem;
+}
+
+
+
+.bg-surface-bright {
+    background-color: #FAF5F0 !important;
+}
+
+.bg-surface-container-low {
+    background-color: #F0EBE3 !important;
+}
+
+.shadow-tactile {
+    box-shadow: 0 2px 8px rgba(92, 77, 77, 0.08);
+}
+
+
+
+footer {
+    border-color: #C1C5A8 !important;
+}
+
+footer p {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #8C9362;
+}
+
+
+
+@media (max-width: 768px) {
+    .header-vintage h1 {
+        font-size: 1.8rem;
+    }
+
+    .card-img-wrapper img {
+        height: 200px;
+    }
+}
