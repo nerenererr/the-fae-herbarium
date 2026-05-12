@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
 
-
 * {
     box-sizing: border-box;
 }
@@ -13,6 +12,37 @@ body {
     min-height: 100vh;
 }
 
+.navbar {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.navbar-title {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #5C4D4D !important;
+}
+
+.nav-link-vintage {
+    font-family: 'Lora', serif;
+    font-size: 0.9rem;
+    color: #5C4D4D !important;
+    padding: 0 1rem !important;
+}
+
+.nav-link-vintage.active {
+    border-bottom: 1px solid #5C4D4D;
+}
+
+.nav-link-vintage:hover {
+    color: #8C9362 !important;
+}
+
+.navbar-icon {
+    font-size: 1.3rem;
+    color: #5C4D4D;
+}
 
 .header-vintage {
     background-color: #FAF5F0;
@@ -39,6 +69,12 @@ body {
     opacity: 1;
 }
 
+.hero-illustration {
+    width: 60%;
+    max-width: 700px;
+    display: block;
+    margin: 2rem auto 0;
+}
 
 .fairy-card {
     background-color: #FAF5F0;
@@ -54,8 +90,6 @@ body {
     box-shadow: 0 12px 28px rgba(92, 77, 77, 0.12) !important;
     border-color: #D3A2A2 !important;
 }
-
-
 
 .card-img-wrapper {
     position: relative;
@@ -78,7 +112,6 @@ body {
     transform: scale(1.04);
 }
 
-
 .badge-custom {
     position: absolute;
     top: 10px;
@@ -96,8 +129,6 @@ body {
     font-style: italic;
     letter-spacing: 0.04em;
 }
-
-
 
 .font-headline-md {
     font-family: 'Lora', serif;
@@ -131,7 +162,7 @@ body {
 }
 
 .text-secondary {
-    color: #8C9362 !important;
+    color: #C48282 !important;
 }
 
 .text-tertiary {
@@ -158,8 +189,6 @@ body {
     border-bottom: 1px solid rgba(193, 197, 168, 0.4);
 }
 
-
-
 .collapse {
     transition: height 0.35s ease-in-out;
 }
@@ -167,8 +196,6 @@ body {
 .collapsing {
     transition: height 0.35s ease-in-out !important;
 }
-
-
 
 .icon-small {
     font-size: 1rem !important;
@@ -178,8 +205,6 @@ body {
 .text-small {
     font-size: 0.85rem;
 }
-
-
 
 .bg-surface-bright {
     background-color: #FAF5F0 !important;
@@ -193,8 +218,6 @@ body {
     box-shadow: 0 2px 8px rgba(92, 77, 77, 0.08);
 }
 
-
-
 footer {
     border-color: #C1C5A8 !important;
 }
@@ -206,8 +229,6 @@ footer p {
     color: #8C9362;
 }
 
-
-
 @media (max-width: 768px) {
     .header-vintage h1 {
         font-size: 1.8rem;
@@ -216,4 +237,10 @@ footer p {
     .card-img-wrapper img {
         height: 200px;
     }
+
+#fairiesSection {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
 }
