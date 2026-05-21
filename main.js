@@ -1,4 +1,4 @@
-const requestUrl = "http://localhost:3000/fairies";
+const requestUrl = './json/fairies.json';
 
 async function fetchFairiesData() {
     const response = await fetch(requestUrl);
