@@ -143,5 +143,8 @@ The fairy data is stored in `json/fairies.json`. Each entry contains the followi
 
 ## 👩‍💻 Author
 
+Nerea Ros Ocaña
 
 Made with 🌸 for a frontend development class project.
+
+https://www.linkedin.com/in/nerea-ros-329764386/
