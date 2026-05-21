@@ -18,7 +18,9 @@
 <body class="bg-herbarium">
     <nav class="navbar navbar-expand-lg header-vintage">
     <div class="container">
-        <a class="navbar-brand navbar-title" href="#">The Fairy Herbarium</a>
+        <a class="navbar-brand" href="#">
+            <img src="https://res.cloudinary.com/dbtuho5h0/image/upload/v1778053521/f884ceee-430c-43d0-863d-8b398a863450_w1mlgb.png" alt="The Fairy Herbarium" class="navbar-logo">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,12 +52,61 @@
         <img src="https://res.cloudinary.com/dbtuho5h0/image/upload/v1778057148/e71fec04-d0f8-4371-a29a-3162452ce238_r9o4bw.png" alt="Forest creatures illustration" class="hero-illustration">
     </div>
 </header>    
+    <section class="filter-section">
+        <div class="container">
+            <div class="dropdown">
+                <a href="#" class="filter-link dropdown-toggle" data-bs-toggle="dropdown">
+                    Filter
+                </a>
+                <ul class="dropdown-menu filter-dropdown">
+                    <li><a href="#" class="dropdown-item filter-link active" data-filter="all">All</a></li>
+                    <li><a href="#" class="dropdown-item filter-link" data-filter="Sunlight">Sunlight</a></li>
+                    <li><a href="#" class="dropdown-item filter-link" data-filter="Briar">Briar</a></li>
+                    <li><a href="#" class="dropdown-item filter-link" data-filter="Nocturnal">Nocturnal</a></li>
+                    <li><a href="#" class="dropdown-item filter-link" data-filter="Grove">Grove</a></li>
+                    <li><a href="#" class="dropdown-item filter-link" data-filter="Spring">Spring</a></li>
+                    <li><a href="#" class="dropdown-item filter-link" data-filter="Harvest">Harvest</a></li>
+                    <li><a href="#" class="dropdown-item filter-link" data-filter="Aquatic">Aquatic</a></li>
+                    <li><a href="#" class="dropdown-item filter-link" data-filter="Artisan">Artisan</a></li>
+                    <li><a href="#" class="dropdown-item filter-link" data-filter="Herbalist">Herbalist</a></li>
+                    <li><a href="#" class="dropdown-item filter-link" data-filter="Twilight">Twilight</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <main class="container my-5">
         <div id="fairiesSection" class="row">
             </div>
     </main>
-    <footer class="text-center py-4 border-top border-vintage mt-5">
-        <p class="text-small text-muted mb-0">© 2026 The Fae Herbarium. For botanical and magical study purposes only.</p>
+    <footer class="footer-vintage">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-md-4">
+                    <h4 class="footer-title">Follow</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Instagram</a></li>
+                        <li><a href="https://github.com/nerenererr" class="footer-link" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="footer-title">Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p class="footer-text">Receive updates from the Herbarium.</p>
+                    <div class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="your@email.com">
+                        <button class="newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <p class="footer-copy">© 2026 The Fae Herbarium. For botanical and magical study purposes only.</p>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>

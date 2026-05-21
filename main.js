@@ -51,3 +51,24 @@ fetchFairiesData()
         }
     })
     .catch((error) => console.error("Error fetching fairies:", error));
+
+document.querySelectorAll('.filter-dropdown .filter-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelectorAll('.filter-dropdown .filter-link').forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+
+        const filter = this.dataset.filter;
+        const cards = document.querySelectorAll('#fairiesSection .col-md-6');
+
+        cards.forEach(card => {
+            const category = card.querySelector('.badge-custom span').textContent;
+            if (filter === 'all' || category === filter) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
+});

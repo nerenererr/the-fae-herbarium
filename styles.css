@@ -15,13 +15,14 @@ body {
 .navbar {
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-.navbar-title {
-    font-family: 'Lora', serif;
-    font-style: italic;
-    font-size: 1.2rem;
-    color: #5C4D4D !important;
+.navbar-logo {
+    height: 40px;
+    width: auto;
 }
 
 .nav-link-vintage {
@@ -74,6 +75,47 @@ body {
     max-width: 700px;
     display: block;
     margin: 2rem auto 0;
+}
+
+.filter-section {
+    padding: 2rem 0;
+}
+
+.dropdown-toggle {
+    font-family: 'Lora', serif;
+    font-size: 0.9rem;
+    color: #5C4D4D !important;
+    text-decoration: none;
+}
+
+.dropdown-toggle:hover {
+    color: #8C9362 !important;
+}
+
+.filter-dropdown {
+    background-color: #FAF5F0;
+    border: 1px solid #C1C5A8;
+    border-radius: 8px;
+    padding: 0.5rem 0;
+}
+
+.filter-dropdown .filter-link {
+    font-family: 'Lora', serif;
+    font-size: 0.9rem;
+    color: #5C4D4D;
+    padding: 0.35rem 1.5rem;
+}
+
+.filter-dropdown .filter-link:hover {
+    background-color: #F0EBE3;
+    color: #8C9362 !important;
+}
+
+.filter-dropdown .filter-link.active {
+    border-bottom: none;
+    background-color: #F0EBE3;
+    color: #8C9362;
+    font-style: italic;
 }
 
 .fairy-card {
@@ -218,15 +260,113 @@ body {
     box-shadow: 0 2px 8px rgba(92, 77, 77, 0.08);
 }
 
-footer {
-    border-color: #C1C5A8 !important;
+.footer-vintage {
+    background-color: #FAF5F0;
+    border-top: 1px solid #C1C5A8;
+    padding: 3rem 0 1.5rem;
+    margin-top: 4rem;
 }
 
-footer p {
+.footer-content {
+    padding-bottom: 2rem;
+}
+
+.footer-title {
     font-family: 'Lora', serif;
-    font-style: italic;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #5C4D4D;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-link {
+    font-family: 'Lora', serif;
+    font-size: 0.9rem;
     color: #8C9362;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.footer-link:hover {
+    color: #5C4D4D;
+}
+
+.footer-text {
+    font-family: 'Lora', serif;
+    font-size: 0.85rem;
+    color: #8C9362;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.newsletter-input {
+    font-family: 'Lora', serif;
+    font-size: 0.85rem;
+    color: #5C4D4D;
+    background-color: #FAF5F0;
+    border: 1px solid #C1C5A8;
+    border-radius: 4px;
+    padding: 0.4rem 0.75rem;
+    outline: none;
+}
+
+.newsletter-input::placeholder {
+    color: #C1C5A8;
+    font-style: italic;
+}
+
+.newsletter-input:focus {
+    border-color: #8C9362;
+}
+
+.newsletter-btn {
+    font-family: 'Lora', serif;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #FAF5F0;
+    background-color: #8C9362;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4rem 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.newsletter-btn:hover {
+    background-color: #5C4D4D;
+}
+
+.footer-divider {
+    border-color: #C1C5A8;
+    opacity: 1;
+    margin: 0 0 1rem;
+}
+
+.footer-copy {
+    font-family: 'Lora', serif;
+    font-size: 0.75rem;
+    font-style: italic;
+    color: #C1C5A8;
+    text-align: center;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
